@@ -47,3 +47,16 @@ numberButtons.forEach(button => {
     calculator.updateDisplay();
   });
 });
+
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+  sayHi() {
+    alert(this.name);
+  }
+}
+//Usage:
+let user = new User("Welcome Stranger!");
+user.sayHi();
+console.log(sayHi);
